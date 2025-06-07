@@ -2,7 +2,10 @@
 
 This repository hosts metadata and configuration files used to manage datasets for the project. Actual dataset files are stored externally and retrieved on demand with [DVC](https://dvc.org/).
 
+For an overview of tensors contained in the dataset, see [DATASET_TENSORS.md](./DATASET_TENSORS.md).
+
 ## Project goals
+
 
 - Provide a centralized location for dataset version control.
 - Ensure reproducible experiments by tracking data with DVC.
