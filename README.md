@@ -4,6 +4,22 @@ This repository hosts metadata and configuration files used to manage datasets f
 
 For an overview of tensors contained in the dataset, see [DATASET_TENSORS.md](./DATASET_TENSORS.md).
 
+## Quick Start
+
+1. Install the required Python packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Pull the dataset files:
+
+   ```bash
+   dvc pull
+   ```
+
+If installation of the optional `tensorus` package fails, you can still run the example notebooks by replacing its functionality with equivalent PyTorch code or skipping cells that import it.
+
 ## Project goals
 
 
