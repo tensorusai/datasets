@@ -37,6 +37,26 @@ Datasets are tracked using DVC so that the repository remains lightweight. To fe
 
 After the command completes, the data described by the repository's DVC files will appear in the workspace.
 
+## Scripts
+
+Helper scripts for working with the example dataset are located in the `scripts/` directory.
+
+- `generate_demo_dataset.py` creates `data/tensors.npy` locally.
+- `download_data.sh` installs DVC and pulls the dataset from a configured remote.
+
+### Generating the demo dataset
+Run:
+```bash
+python scripts/generate_demo_dataset.py
+```
+
+### Downloading with DVC
+If you have configured a DVC remote, run:
+```bash
+./scripts/download_data.sh
+```
+
+
 ## Usage
 
 With the data downloaded you can import it in your experiments or notebooks. Example notebooks demonstrating basic usage are provided in the `notebooks/` directory.
