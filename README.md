@@ -39,13 +39,13 @@ After the command completes, the data described by the repository's DVC files wi
 
 ## Usage
 
-With the data downloaded you can import it in your experiments or notebooks. Example notebooks and scripts demonstrating basic usage will be available in the `examples/` directory as they are added.
+With the data downloaded you can import it in your experiments or notebooks. Example notebooks demonstrating basic usage are provided in the `notebooks/` directory.
 
 ## Repository structure
 
 - `data/` - directory where dataset files will reside after running `dvc pull`.
 - `dvc.yaml` - DVC pipeline definitions for dataset preparation (if present).
-- `examples/` - example notebooks and scripts (coming soon).
+- `notebooks/` - Jupyter notebooks with sample Tensorus workflows.
 
 ## License
 
