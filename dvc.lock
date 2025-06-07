@@ -7,3 +7,7 @@ stages:
       hash: md5
       md5: d34bfc7d8e4e84a29db0cf46560777e4
       size: 144
+    - path: data/all_tensors.npz
+      hash: md5
+      md5: 8482397e96cbe9260afd41581c87049e
+      size: 12004

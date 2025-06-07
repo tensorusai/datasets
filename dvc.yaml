@@ -3,3 +3,4 @@ stages:
     cmd: python scripts/generate_demo_dataset.py
     outs:
       - data/tensors.npy
+      - data/all_tensors.npz
