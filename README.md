@@ -13,12 +13,13 @@ For an overview of tensors contained in the dataset, see [DATASET_TENSORS.md](./
 
 ## Downloading data
 
-Datasets are tracked using DVC so that the repository remains lightweight. To fetch the data:
+DVC keeps large data files out of Git so the repository remains lightweight. To
+fetch the data:
 
-1. Install DVC if you have not already:
+1. Install the required Python packages:
 
    ```bash
-   pip install dvc
+   pip install -r requirements.txt
    ```
 
 2. Add your own DVC remote (the repository ships without one):
@@ -39,6 +40,12 @@ After the command completes, the data described by the repository's DVC files wi
 
 ## Scripts
 
+Before running any of the helper scripts install the repository requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
 Helper scripts for working with the example dataset are located in the `scripts/` directory.
 
 - `generate_demo_dataset.py` creates `data/tensors.npy` locally.
@@ -58,6 +65,12 @@ If you have configured a DVC remote, run:
 
 
 ## Usage
+
+Before opening the example notebooks install the repository requirements:
+
+```bash
+pip install -r requirements.txt
+```
 
 With the data downloaded you can import it in your experiments or notebooks. Example notebooks demonstrating basic usage are provided in the `notebooks/` directory.
 
