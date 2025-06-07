@@ -21,7 +21,7 @@ Datasets are tracked using DVC so that the repository remains lightweight. To fe
    pip install dvc
    ```
 
-2. Configure your DVC remote (only needed once):
+2. Add your own DVC remote (the repository ships without one):
 
    ```bash
    dvc remote add -d storage <remote-url>
