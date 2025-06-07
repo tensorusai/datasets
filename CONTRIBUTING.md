@@ -19,7 +19,7 @@ Please open an issue first if you plan to contribute a new dataset or a major ch
 
 ## Notebooks
 
-- Add example notebooks under the `examples/` directory.
+- Add example notebooks under the `notebooks/` directory.
 - Keep notebook outputs minimal. Clear large cell outputs before committing.
 - Use relative paths so notebooks work from a fresh clone after running `dvc pull`.
 
