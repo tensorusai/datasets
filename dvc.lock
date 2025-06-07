@@ -1,0 +1,9 @@
+schema: '2.0'
+stages:
+  generate:
+    cmd: python scripts/generate_demo_dataset.py
+    outs:
+    - path: data/tensors.npy
+      hash: md5
+      md5: d34bfc7d8e4e84a29db0cf46560777e4
+      size: 144

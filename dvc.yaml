@@ -1,0 +1,5 @@
+stages:
+  generate:
+    cmd: python scripts/generate_demo_dataset.py
+    outs:
+      - data/tensors.npy
