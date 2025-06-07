@@ -56,6 +56,10 @@ Run:
 ```bash
 python scripts/generate_demo_dataset.py
 ```
+To regenerate `data/tensors.npy` using DVC instead, run:
+```bash
+dvc repro
+```
 
 ### Downloading with DVC
 If you have configured a DVC remote, run:

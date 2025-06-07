@@ -1,5 +1,0 @@
-outs:
-- md5: c70a8d0bd7ca7e0d0f375c43cee8202e
-  size: 144
-  hash: md5
-  path: tensors.npy
