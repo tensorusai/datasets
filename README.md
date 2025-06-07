@@ -49,4 +49,7 @@ With the data downloaded you can import it in your experiments or notebooks. Exa
 
 ## License
 
-This project is distributed under the terms of the LICENSE file.
+The dataset files are released into the public domain under the CC0 1.0
+Universal license. Code and configuration contained in this repository
+remain available under the MIT License. See the [LICENSE](./LICENSE)
+file for full details.

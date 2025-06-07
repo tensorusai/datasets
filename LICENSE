@@ -1,3 +1,16 @@
+This repository contains both dataset files and supporting code.
+
+Dataset License (CC0 1.0)
+------------------------
+The contents of the `data/` directory are dedicated to the public domain under
+the Creative Commons CC0 1.0 Universal license. You may copy, modify,
+distribute and use the data without asking permission.
+
+Code License (MIT)
+------------------
+The accompanying code and metadata are provided under the terms of the
+MIT License below.
+
 MIT License
 
 Copyright (c) 2025 Tensorus
