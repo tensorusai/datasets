@@ -53,3 +53,10 @@ The dataset files are released into the public domain under the CC0 1.0
 Universal license. Code and configuration contained in this repository
 remain available under the MIT License. See the [LICENSE](./LICENSE)
 file for full details.
+
+## Contributing
+
+We welcome contributions of new datasets, notebooks, and documentation.
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to
+get started. By participating in this project you agree to abide by our
+[Code of Conduct](./CODE_OF_CONDUCT.md).
